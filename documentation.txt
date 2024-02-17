@@ -1,0 +1,23 @@
+//esboço da documentação 
+Este projeto tem o intuito de ser para aprender sobre como se faz um programa que: recebe um número inteiro digitado, verifica se ele é ímpar ou par e retorna para quem digitou se é ímpar ou par.
+
+Serviu como intuito para:
+Aprender sobre operadores " % ", " ? " em JS;
+
+O código começa pedindo para ao usuário digitar um número, e o código analisa se o número digitado é ímpar ou par.
+
+Como é um código feito em JS e precisa ter um input perguntando e pedindo um número, precisei roda-lo em um arquivo html, através da tag <script> e utilizando um LocalHost, como o Five Server ou LiveServer.
+
+Sobre o código:
+utilizei o padrão de boas práticas em declaração de identificadores (variáveis, constantes) e com isso utilizei "Let" ao invés de "var".
+Além, as variáveis estão com nome " Num " que é a que recebe o número digitado, e " result " que é a que faz a lógica do programa funcionar e verifica se o número é ímpar ou par.
+
+ O parseInt é usado para converter o valor fornecido pelo prompt em um número inteiro. Este número é armazenado na variável num.
+
+ o operador de módulo % (na variável result) é usado para calcular o resto da divisão de num por 2. Se o resto for igual a 0, significa que o número é divisível por 2 e, portanto, é par. Caso contrário, o número é ímpar. O operador ternário ? é usado para verificar esta condição. Se a condição for verdadeira (o número é par), a variável result recebe a string "Par"; caso contrário, recebe a string "Ímpar".
+
+O operador ternário ? : é utilizado para fazer uma escolha entre duas opções com base em uma condição específica.
+ A condição é verificada pelo operador de módulo %, que calcula o resto da divisão de num por 2. Se o resto for igual a 0, isso indica que o número é par, e a primeira opção é selecionada.
+  Caso contrário, se o resto não for zero, o número é ímpar, e a segunda opção é escolhida. 
+  
+ A condição específica é num % 2 === 0, onde num representa o número digitado pelo usuário. Se essa condição for verdadeira, o número é considerado par; caso contrário, é ímpar.

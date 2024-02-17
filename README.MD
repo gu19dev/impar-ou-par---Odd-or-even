@@ -17,7 +17,7 @@ Como é um código feito em JavaScript e precisa ter um input perguntando e pedi
 - As variáveis estão com nome `num` que é a que recebe o número digitado, e `result` que é a que faz a lógica do programa funcionar e verifica se o número é ímpar ou par.
 - O `parseInt` é usado para converter o valor fornecido pelo prompt em um número inteiro. Este número é armazenado na variável `num`.
 ### Lógica do Código
-O operador de módulo `%` (na variável `result`) é usado para calcular o resto da divisão de `num` por 2. Se o resto for igual a 0, significa que o número é divisível por 2 e, portanto, é par. Caso contrário, o número é ímpar. O operador ternário `?` é usado para verificar esta condição. Se a condição for verdadeira (o número é par), a variável `result` recebe a string "<span style='color: green'>Par</span>"; caso contrário, recebe a string "<span style='color: red'>Ímpar</span>".
+O operador de módulo `%` (na variável `result`) é usado para calcular o resto da divisão de `num` por 2. Se o resto for igual a 0, significa que o número é divisível por 2 e, portanto, é par. Caso contrário, o número é ímpar. O operador ternário `?` é usado para verificar esta condição. Se a condição for verdadeira (o número é par), a variável `result` recebe a string "<span style='color: green'>Par</span>"; caso contrário, recebe a string <font color="green">Ímpar.
 
 O operador ternário `? :` é utilizado para fazer uma escolha entre duas opções com base em uma condição específica. A condição é verificada pelo operador de módulo `%`, que calcula o resto da divisão de `num` por 2. Se o resto for igual a 0, isso indica que o número é par, e a primeira opção é selecionada. Caso contrário, se o resto não for zero, o número é ímpar, e a segunda opção é escolhida.
 

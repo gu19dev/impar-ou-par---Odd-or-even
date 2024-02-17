@@ -1,0 +1,8 @@
+# Arquivos de log
+*.log
+
+# Arquivos de build
+build/
+
+# Arquivo específico a ser ignorado
+exemplo.txt

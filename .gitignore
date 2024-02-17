@@ -4,5 +4,7 @@
 # Arquivos de build
 build/
 
+documentation.txt/
+
 *.txt
 

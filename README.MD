@@ -2,7 +2,7 @@
 [Go to English Version](#par-and-odd-numbers-check-project)
 
 ## Objetivo
-Este projeto tem o intuito de ser para aprender sobre como se faz um programa que: recebe um número inteiro digitado, verifica se ele é ímpar ou par e retorna para quem digitou se é ímpar ou par.
+Este projeto tem a findalidade para aprender sobre como se faz um programa que: recebe um número inteiro digitado, verifica se ele é ímpar ou par e retorna para quem digitou se é ímpar ou par.
 
 ## Finalidade
 Serviu como intuito para:
